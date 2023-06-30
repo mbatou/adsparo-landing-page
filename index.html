@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body class="bg-cover bg-no-repeat" style="background-image: url('assets/img/long-bg.png');">
+
+    <div id="loader" class="loader">
+        <div class="loader-inner"></div>
+    </div>
+
+    <header class="fixed top-0 left-0 right-0">
+        <div class="navbar bg-transparent bg-opacity-0">
+            <div class="container mx-auto flex items-center justify-between py-4">
+                <div>
+                    <a href="#">
+                        <img class="h-8" src="assets/img/logo1.png" alt="Logo">
+                    </a>
+                </div>
+                <nav class="navbar-element space-x-4">
+                    <a href="#features" class="text-white hover:text-gray-300 font-avenir">Features</a>
+                    <a href="#why-adsparo" class="text-white hover:text-gray-300 font-avenir">Why Adsparo</a>
+                    <a href="#contact" class="text-white hover:text-gray-300 font-avenir">Contact</a>
+                </nav>
+
+
+                <div class="navbar-button">
+                    <button class="login px-4 py-2">
+                        <span class="font-avenir">Log In</span>
+                        <svg width="30" height="22" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="37" cy="37" r="35.5" stroke="white" stroke-width="7"></circle>
+                            <path
+                                d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+                                fill="white"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <!-- Start hero section -->
+    <!-- fade-out hero to add after -->
+
+    <section class="hero bg-cover bg-no-repeat flex items-center justify-center">
+        <div class="headline container mx-auto text-center py-16 pb-24">
+            <p class="text-lg text-white mt-4 font-avenir"
+                style="font-size: 32px; font-weight: 500; line-height: 38.4px; color: rgba(61, 71, 77, 0.5);">
+                Bring Interactive Ads in your Marketing Strategy
+            </p>
+            <h1 class="text-7xl font-semibold leading-tight font-avenir" style="color: rgb(61, 71, 77);">
+                Be Ready to. <span id="animated-text"></span>
+            </h1>
+            <div class="button-container">
+                <button class="cta"><span>Request a demo</span></button>
+                <button class="shadow__btn font-avenir">Get started</button>
+            </div>
+            <div class="image-container">
+                <img src="assets/img/Ellipse_green.png" alt="Ellipse 1" class="ellipse-image1">
+                <img src="assets/img/Ellipse_yellow.png" alt="Ellipse 2" class="ellipse-image2">
+            </div>
+        </div>
+    </section>
+
+    <!-- End of hero section -->
+
+    <!-- Start of features section  -->
+
+    <section class="features bg-cover bg-no-repeat flex items-center justify-center" id="features">
+        <div class="feature-container container mx-auto text-center py-16 pb-24">
+            <h1 class="feature-heading text-7xl font-semibold leading-tight font-avenir type-effect" style="color: #FF6F61;">
+                No.1 Full Package for Ads
+            </h1>
+            <p class="text-lg text-white mt-4 font-avenir type-effect"
+                style="font-size: 32px; font-weight: 500; line-height: 38.4px; color: rgba(61, 71, 77, 0.5);">
+                Bring Interactive Ads in your Marketing Strategy
+            </p>
+
+            <div class="card-container">
+                <div class="card slide-in">
+                    <p class=" head-card text-lg text-white mt-4 font-avenir"
+                        style="font-size: 32px; font-weight: 500; line-height: 38.4px; color: #FF6F61;">
+                        Ads Builder
+                    </p>
+                    <div class="card__content">
+                        <p class="card__title">Ads Builder</p>
+                        <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco.</p>
+                    </div>
+                </div>
+
+                <div class="card slide-in">
+                    <p class=" head-card text-lg text-white mt-4 font-avenir"
+                        style="font-size: 32px; font-weight: 500; line-height: 38.4px; color: #FF6F61;">
+                        360 Ad publisher
+                    </p>
+                    <div class="card__content">
+                        <p class="card__title">360 Ad publisher</p>
+                        <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco.</p>
+                    </div>
+                </div>
+
+                <div class="card slide-in">
+                    <p class=" head-card text-lg text-white mt-4 font-avenir"
+                        style="font-size: 32px; font-weight: 500; line-height: 38.4px; color: #FF6F61;">
+                        Analytics and Reports
+                    </p>
+                    <div class="card__content">
+                        <p class="card__title">Analytics and Reports</p>
+                        <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="image-container-gravitate">
+                <img src="assets/img/annonce.png" alt="Left Image" class="left-image">
+                <img src="assets/img/abstract_circle.webp" alt="Right Image" class="right-image">
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- End of features section -->
+
+    <!-- Start of formats section -->
+
+    <section class="formats bg-cover bg-no-repeat flex items-center justify-center" id="why-adsparo">
+        <div class="container mx-auto text-center py-16 pb-24">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="left-column">
+                    <h1 class="text-7xl font-semibold leading-tight font-avenir" style="color: #FF6F61;">
+                        Limitless possibilities
+                    </h1>
+                    <p class="text-lg text-white mt-4 font-avenir"
+                        style="font-size: 32px; font-weight: 500; line-height: 38.4px; color: rgba(61, 71, 77, 0.5);">
+                        Bring Interactive Ads in your Marketing Strategy
+                    </p>
+                </div>
+                <div class="right-column grid grid-cols-2 gap-8">
+                    <div class="card">
+                        <img src="assets/img/smartphone.png" alt="smartphone-banner">
+                        <div class="card__content">
+                            <p class="card__title">Mobile Display</p>
+                            <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/online-payment.png" alt="smartphone-banner">
+                        <div class="card__content">
+                            <p class="card__title">Desktop responsive</p>
+                            <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/television.png" alt="smartphone-banner">
+                        <div class="card__content">
+                            <p class="card__title">Tv Immersive</p>
+                            <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/computer.png" alt="smartphone-banner">
+                        <div class="card__content">
+                            <p class="card__title">Targeted Network</p>
+                            <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of formats section -->
+
+    <!-- Start of why adsparo  -->
+
+    <section class="dimensions bg-cover bg-no-repeat flex items-center justify-center">
+        <div class="container mx-auto text-center py-16 pb-24">
+            <div class="feature-container container mx-auto text-center py-16 pb-24">
+                <h1 class="feature-heading text-7xl font-semibold leading-tight font-avenir" style="color: #FF6F61;">
+                    Align with Marketing Objectives
+                </h1>
+                <p class="text-lg text-white mt-4 font-avenir"
+                    style="font-size: 32px; font-weight: 500; line-height: 38.4px; color: rgba(61, 71, 77, 0.5);">
+                    Bring Interactive Ads in your Marketing Strategy
+                </p>
+                <div class="dimension_card">
+                    <div class="card__column">
+                        <div class="image-wrapper">
+                            <img src="assets/img/raise-awareness.png" alt="Image 1" class="card__image">
+                        </div>
+                        <p class="card__description">Brand Awareness</p>
+                    </div>
+                    <div class="card__column">
+                        <img src="assets/img/likes.png" alt="Image 2" class="card__image">
+                        <p class="card__description">Engagement</p>
+                    </div>
+                    <div class="card__column">
+                        <img src="assets/img/profit.png" alt="Image 3" class="card__image">
+                        <p class="card__description">Conversion</p>
+                    </div>
+                    <div class="card__column">
+                        <img src="assets/img/download.png" alt="Image 4" class="card__image">
+                        <p class="card__description">Acquisition</p>
+                    </div>
+                    <div class="card__column">
+                        <img src="assets/img/recruitment.png" alt="Image 5" class="card__image">
+                        <p class="card__description">Lead Generation</p>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button class="shadow__btn font-avenir" onclick="window.location.href='gallery.html'">Discover the
+                        Gallery</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of why adsparo -->
+
+    <!-- Start of Contact Section -->
+
+    <section class="formats bg-cover bg-no-repeat flex items-center justify-center" id="contact">
+        <div class="container mx-auto text-center py-16 pb-24">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="left-column">
+                    <h1 class="text-7xl font-semibold leading-tight font-avenir" style="color: #FF6F61;">
+                        Ready to create your campaign ?
+                    </h1>
+                    <p class="text-lg text-white mt-4 font-avenir"
+                        style="font-size: 32px; font-weight: 500; line-height: 38.4px; color: rgba(61, 71, 77, 0.5);">
+                        There is no limit to your <span class="contact-span">creativity</span> , Let's discuss and bring
+                        your <span class="contact-span">ideas to life</span>.
+                    </p>
+                </div>
+                <div class="right-column grid grid-cols-2 gap-8">
+                    <div class="col-span-2">
+                        <div class=" contact-card bg-white shadow-lg rounded-lg p-6">
+                            <h2 class="request-header text-2xl font-semibold mb-4">Request a Demo</h2>
+                            <form action="#" method="POST">
+                                <div class="mb-4">
+                                    <label for="name"
+                                        class="block mb-2 text-gray-800 font-medium text-left">Name</label>
+                                    <input type="text" id="name" name="name"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+                                        placeholder="e.g : Charles Walker" required>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="email"
+                                        class="block mb-2 text-gray-800 font-medium text-left">Email</label>
+                                    <input type="email" id="email" name="email"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+                                        placeholder="e.g : charleswalker@adsparo.co" required>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="company"
+                                        class="block mb-2 text-gray-800 font-medium text-left">Company</label>
+                                    <input type="text" id="company" name="company"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+                                        placeholder="e.g : Adsparo" required>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="message"
+                                        class="block mb-2 text-gray-800 font-medium text-left">Message</label>
+                                    <textarea id="message" name="message"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+                                        rows="4"
+                                        placeholder="e.g : I'm ready to launch my campaign, i was just waiting for your solution."
+                                        required></textarea>
+                                </div>
+                                <button type="submit"
+                                    class="submit-button bg-blue-500 text-white py-2 px-4 rounded-md transition-colors">
+                                    <div class="svg-wrapper-1">
+                                        <div class="svg-wrapper">
+                                            <svg height="24" width="24" viewBox="0 0 24 24"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                                <path
+                                                    d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                                                    fill="currentColor"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <span>Send</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- End of contact section -->
+
+    <footer class="footer text-white py-10">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="col-span-1">
+                    <!-- Column 1: Logo -->
+                    <img src="assets/img/logo1.png" alt="Logo" class="h-10">
+                </div>
+                <div class="col-span-1">
+                    <!-- Column 2: Useful Links -->
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Why Adsparo ?</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-span-1">
+                    <!-- Column 4: Company -->
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-span-1">
+                    <!-- Column 3: Contact and Social Media Icons -->
+                    <ul>
+                        <li>
+                            <div class="social-media">
+                                <a href="#" class="socialContainer containerOne">
+                                    <svg class="socialSvg instagramSvg" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z">
+                                        </path>
+                                    </svg>
+                                </a>
+
+                                <a href="#" class="socialContainer containerTwo">
+                                    <svg class="socialSvg twitterSvg" viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z">
+                                        </path>
+                                    </svg> </a>
+
+                                <a href="#" class="socialContainer containerThree">
+                                    <svg class="socialSvg linkdinSvg" viewBox="0 0 448 512">
+                                        <path
+                                            d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="mt-6 text-center text-gray-500 text-sm">
+                &copy; 2023 Adsparo. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
